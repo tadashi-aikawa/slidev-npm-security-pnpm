@@ -1,0 +1,418 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap");
+@import "https://www.nerdfonts.com/assets/css/webfont.css";
+
+:root {
+  --color-primary: #3db680;
+  --color-secondary: #ce579b;
+  --color-main-reverse: #f8f6f1;
+
+  --color-foreground: #595959;
+  --color-background: #ffffff;
+  --color-dimmed: #9aa0ab;
+  --color-dimmed-background: #f8f6f1;
+
+  --slidev-code-font-size: 0.65em;
+  --slidev-code-line-height: 1.3;
+  --slidev-code-padding: 0.75em 1em;
+
+  --color-ghost: rgb(184, 188, 197);
+  --color-filter-foreground: brightness(0) saturate(100%) invert(33%) sepia(0%)
+    saturate(4%) hue-rotate(152deg) brightness(94%) contrast(81%);
+  --color-filter-primary: brightness(0) saturate(100%) invert(57%) sepia(24%)
+    saturate(971%) hue-rotate(101deg) brightness(102%) contrast(89%);
+  --color-filter-secondary: brightness(0) saturate(100%) invert(49%) sepia(39%)
+    saturate(902%) hue-rotate(275deg) brightness(86%) contrast(85%);
+}
+
+.slidev-layout {
+  padding: 1em 2em;
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 35px;
+  line-height: 1.2;
+  letter-spacing: 1.25px;
+  color: var(--color-foreground);
+}
+
+/*
+ * ╭─────────────────────────────────────────────────────────╮
+ * │                          段落                           │
+ * ╰─────────────────────────────────────────────────────────╯
+*/
+
+.slidev-layout p {
+  font-size: 0.85em;
+  line-height: inherit;
+}
+
+/*
+ * ╭─────────────────────────────────────────────────────────╮
+ * │                         見出し                          │
+ * ╰─────────────────────────────────────────────────────────╯
+*/
+
+.slidev-layout h1 {
+  color: var(--color-primary);
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.slidev-layout h1 code {
+  font-size: 0.75em;
+  padding: 0.1em 0.3em;
+  background-color: var(--color-dimmed-background);
+  color: var(--color-dimmed);
+  border-radius: 4px;
+}
+
+.slidev-layout h1 + p {
+  opacity: 1;
+  line-height: 1.3 !important;
+}
+.slidev-layout.fact h1 {
+  font-size: 1.3em;
+}
+.slidev-layout.fact h1 + p {
+  font-size: inherit;
+}
+
+.slidev-layout h2 {
+  color: var(--color-primary);
+  font-size: 1.05em;
+  font-weight: bold;
+}
+
+.slidev-layout h3 {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.slidev-layout h4 {
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.slidev-layout h5 {
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.slidev-layout h6 {
+  font-size: 0.75em;
+  font-weight: bold;
+}
+
+/*
+ * ╭─────────────────────────────────────────────────────────╮
+ * │                        箇条書き                         │
+ * ╰─────────────────────────────────────────────────────────╯
+*/
+
+.slidev-layout ul > li {
+  font-size: 0.85em;
+  position: relative;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.slidev-layout ul > li::before {
+  border-radius: 50%;
+  width: 0.5em;
+  height: 0.5em;
+  top: 0.75em;
+  left: -1.1em;
+  display: block;
+  position: absolute;
+  content: "";
+  background-color: var(--color-primary);
+}
+
+.slidev-layout ol {
+  counter-reset: number;
+}
+
+.slidev-layout ol li {
+  font-size: 0.85em;
+  position: relative;
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 1.7em;
+  margin-bottom: 0.5em;
+}
+
+.slidev-layout ol li::before {
+  font-weight: bold;
+  background-color: var(--color-primary);
+  color: var(--color-dimmed-background);
+  counter-increment: number;
+  border-radius: 50%;
+  font-size: 0.7em;
+  width: 1.8em;
+  height: 1.8em;
+  top: 1.43em;
+  left: -2.6em;
+  display: grid;
+  place-items: center;
+  place-content: center;
+  position: absolute;
+  content: counter(number);
+  margin-top: -1em;
+}
+
+/*
+ * ╭─────────────────────────────────────────────────────────╮
+ * │                          装飾                           │
+ * ╰─────────────────────────────────────────────────────────╯
+*/
+
+.slidev-layout em {
+  font-style: normal;
+  font-weight: bold;
+  color: var(--color-secondary);
+}
+
+/*
+ * ╭─────────────────────────────────────────────────────────╮
+ * │                     コードブロック                      │
+ * ╰─────────────────────────────────────────────────────────╯
+*/
+.slidev-layout .slidev-code-block-title {
+  font-size: 0.65em;
+}
+.slidev-layout .slidev-code-tab {
+  font-size: 1.75em;
+}
+.slidev-layout [class*="i-vscode-icons:file-type-"] {
+  width: 1em;
+  height: 1em;
+}
+
+/*
+ * ╭─────────────────────────────────────────────────────────╮
+ * │                        テーブル                         │
+ * ╰─────────────────────────────────────────────────────────╯
+*/
+
+.slidev-layout table {
+  font-size: 0.75em;
+  margin-top: 2em;
+}
+
+.slidev-layout table thead th {
+  color: var(--color-primary);
+  background-color: var(--color-background);
+  padding: 0.5em 1em;
+  text-align: start;
+  border-color: var(--color-background);
+  border-bottom-color: var(--color-primary);
+  border-bottom-width: 2px;
+}
+
+.slidev-layout table tbody tr,
+.slidev-layout table tbody td {
+  font-size: 0.95em;
+  padding: 0.5em 1em;
+  border-color: var(--color-background);
+  border-bottom-color: var(--color-dimmed);
+}
+
+.slidev-layout table tbody tr:nth-child(odd) td {
+  padding: 0.5em 1em;
+  border-color: var(--color-background);
+  border-bottom-color: var(--color-dimmed);
+  background-color: var(--color-background);
+}
+
+.slidev-layout.headless-table table thead th {
+  border-bottom-color: var(--color-dimmed);
+  border-bottom-width: 1px;
+}
+
+.table-compact {
+  font-size: 1.9em;
+}
+
+/*
+ * ╭─────────────────────────────────────────────────────────╮
+ * │                      リンクカード                       │
+ * ╰─────────────────────────────────────────────────────────╯
+*/
+
+/* PC */
+.link-card-v2 {
+  max-width: 600px;
+  height: auto;
+  position: relative;
+  z-index: 1;
+  border: 1px dotted #b5890077;
+  backdrop-filter: brightness(101%);
+  margin: 1.5em auto;
+  border-radius: 16px;
+
+  display: grid;
+  grid-template:
+    "image         " auto
+    ".....         " 0.5rem
+    "title         " auto
+    ".....         " 0.3rem
+    "content       " auto
+    "site          " auto;
+}
+.link-card-v2:hover {
+  cursor: pointer;
+  border: 1px solid #b58900;
+  backdrop-filter: brightness(98%);
+  transition: backdrop-filter 0.2s;
+}
+
+.link-card-v2-image {
+  grid-area: image;
+  width: 100% !important;
+  object-fit: cover !important;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+/* PC */
+@media screen and (min-width: 769px) {
+  .link-card-v2-image {
+    max-height: 315px;
+  }
+}
+/* タブレット */
+@media screen and (max-width: 768px) and (min-width: 481px) {
+  .link-card-v2-image {
+    max-height: 288px;
+  }
+}
+/* スマホ */
+@media screen and (max-width: 480px) {
+  .link-card-v2-image {
+    max-height: 192px;
+  }
+}
+
+.link-card-v2-title {
+  grid-area: title;
+  font-weight: bold;
+  padding: 0 0.75rem;
+  font-size: 1.2rem;
+}
+.link-card-v2-content {
+  grid-area: content;
+  padding: 0.1rem 0.75rem;
+  font-size: 0.95rem;
+}
+.link-card-v2-site {
+  grid-area: site;
+  padding: 0.35rem 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 0.3rem;
+}
+
+.link-card-v2 a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-indent: -999px;
+  z-index: 2;
+  border-bottom: 0;
+}
+
+.link-card-v2-site-icon {
+  height: 0.8rem;
+}
+
+.link-card-v2-site-name {
+  font-size: 0.75rem;
+  color: slategray;
+}
+
+/*
+ * ╭─────────────────────────────────────────────────────────╮
+ * │                         Mermaid                         │
+ * ╰─────────────────────────────────────────────────────────╯
+*/
+
+/* 欠ける問題の修復 */
+.mermaid,
+.mermaid svg,
+.mermaid foreignObject,
+.mermaid .label {
+  font-family: "Noto Sans JP", sans-serif !important;
+  letter-spacing: 0 !important;
+}
+.mermaid svg {
+  max-width: 100%;
+  height: auto;
+}
+
+/*
+ * ╭─────────────────────────────────────────────────────────╮
+ * │                    結論メッセージ                       │
+ * ╰─────────────────────────────────────────────────────────╯
+ */
+
+.slide-conclusion-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(0 0 0 / 40%);
+}
+
+.slide-conclusion-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  margin-top: 2em;
+  padding: 0.35em 0.9em 0.42em;
+  border: 2px solid color-mix(in srgb, var(--color-primary) 28%, white);
+  background: color-mix(in srgb, var(--color-background) 88%, white);
+  box-shadow: 0 10px 28px rgb(89 89 89 / 12%);
+  backdrop-filter: blur(6px);
+}
+
+.slide-conclusion-message p {
+  margin: 0;
+  color: var(--color-primary);
+  font-size: 1.2em;
+  font-weight: bold;
+  line-height: 1.45;
+  letter-spacing: 0.06em;
+  text-align: center;
+  white-space: pre-line;
+}
+
+/*
+ * ╭─────────────────────────────────────────────────────────╮
+ * │                        フッター                         │
+ * ╰─────────────────────────────────────────────────────────╯
+*/
+
+.refer {
+  position: absolute;
+  bottom: 0.5em;
+  right: 1em;
+  font-size: 0.4em;
+  z-index: 10;
+  color: rgba(255, 255, 255, 0.85);
+  background: rgba(0, 0, 0, 0.5);
+  padding: 0 0.6em;
+  line-height: 0;
+  border-radius: 4px;
+}
+.refer p::before {
+  content: "出典: ";
+}
+.refer a {
+  color: inherit;
+}
