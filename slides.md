@@ -33,7 +33,7 @@ activeChapter: 1
 
 悪意あるコードを **依存パッケージ** に仕込み、実行させる攻撃
 
-![](./public/attachments/002.webp){class="mx-auto w-80% mt-6"}
+![](./attachments/002.webp){class="mx-auto w-80% mt-6"}
 
 ---
 
@@ -134,7 +134,7 @@ backgroundPosition: left top
 
 <div v-click.fade-in>
 
-![](./public/attachments/etokichi-guard.webp){class="absolute size-64 left-52 bottom-16"}
+![](./attachments/etokichi-guard.webp){class="absolute size-64 left-52 bottom-16"}
 
 <div class="absolute top-48 left-9% w-82% bg-white! px-12 py-8">
 
@@ -150,7 +150,7 @@ layout: fact
 
 <h1>
 
-![](./public/attachments/etokichi-guard.webp){class="size-24 inline mb-2"}
+![](./attachments/etokichi-guard.webp){class="size-24 inline mb-2"}
 対策1
 
 </h1>
@@ -243,7 +243,7 @@ layout: fact
 
 <h1>
 
-![](./public/attachments/etokichi-guard.webp){class="size-24 inline mb-2"}
+![](./attachments/etokichi-guard.webp){class="size-24 inline mb-2"}
 対策2
 
 </h1>
@@ -376,7 +376,7 @@ layout: fact
 
 <h1>
 
-![](./public/attachments/etokichi-guard.webp){class="size-24 inline mb-2"}
+![](./attachments/etokichi-guard.webp){class="size-24 inline mb-2"}
 対策3
 
 </h1>
@@ -457,7 +457,7 @@ backgroundPosition: left top
 
 <div v-click.fade-in="2">
 
-![](./public/attachments/etokichi-guard.webp){class="absolute size-64 left-192 bottom-16"}
+![](./attachments/etokichi-guard.webp){class="absolute size-64 left-192 bottom-16"}
 
 <div class="absolute top-48 left-16% w-68% bg-white! px-12 py-8">
 
@@ -473,7 +473,7 @@ layout: fact
 
 <h1>
 
-![](./public/attachments/etokichi-guard.webp){class="size-24 inline mb-2"}
+![](./attachments/etokichi-guard.webp){class="size-24 inline mb-2"}
 対策4
 
 </h1>
