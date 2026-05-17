@@ -362,7 +362,7 @@ layout: center
 
 </Bubble>
 
-<Bubble v-click image="./public/attachments/etokichi+1.webp" position="right" imageHeight="220">
+<Bubble v-click image="./attachments/etokichi+1.webp" position="right" imageHeight="220">
 
 安心して！<br/>
 インストールのリスクを減らす方法があるんだよ！
@@ -428,14 +428,14 @@ minimumReleaseAge = 86400 # 秒設定
 layout: center
 ---
 
-<Bubble image="./public/attachments/etokichi-shy.webp" imageHeight="140" imageGap="32px">
+<Bubble image="./attachments/etokichi-shy.webp" imageHeight="140" imageGap="32px">
 
 大事をとって **7日** に設定したとしても<br/>
 _7日以上見つからない攻撃_ を受けたらもう終わりなの？？
 
 </Bubble>
 
-<Bubble v-click image="./public/attachments/etokichi+1.webp" position="right" imageHeight="220">
+<Bubble v-click image="./attachments/etokichi+1.webp" position="right" imageHeight="220">
 
 安心して！<br/>
 インストールされただけならまだ手は打てるんだよ！
@@ -593,14 +593,14 @@ npm config set ignore-scripts true
 layout: center
 ---
 
-<Bubble image="./public/attachments/etokichi-shy.webp" imageHeight="140" imageGap="32px">
+<Bubble image="./attachments/etokichi-shy.webp" imageHeight="140" imageGap="32px">
 
 ライフサイクルスクリプトを*本当に*必要としている<br/>
 パッケージの処理も無効化されてしまわないの？？
 
 </Bubble>
 
-<Bubble v-click image="./public/attachments/etokichi+1.webp" position="right" imageHeight="220">
+<Bubble v-click image="./attachments/etokichi+1.webp" position="right" imageHeight="220">
 
 安心して！<br/>
 設定で指定したパッケージだけ<br/>
@@ -641,13 +641,13 @@ activeChapter: 3
 layout: center
 ---
 
-<Bubble image="./public/attachments/etokichi-crying.webp" imageHeight="180" imageGap="32px">
+<Bubble image="./attachments/etokichi-crying.webp" imageHeight="180" imageGap="32px">
 
 仕組みも難しいし、設定も多くてよく分からないよ〜
 
 </Bubble>
 
-<Bubble v-click image="./public/attachments/etokichi+1.webp" position="right" imageHeight="220">
+<Bubble v-click image="./attachments/etokichi+1.webp" position="right" imageHeight="220">
 
 安心して！<br/>
 _pnpm_ (v11) を使えば簡単だよ！
