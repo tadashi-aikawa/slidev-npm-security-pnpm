@@ -2,9 +2,9 @@
 <script setup lang="ts">
 defineProps<{
   image: string;
-  imageWidth?: number;
-  imageHeight?: number;
-  imageGap?: number;
+  imageWidth?: string;
+  imageHeight?: string;
+  imageGap?: string;
   name?: string;
   position?: "left" | "right";
 }>();
