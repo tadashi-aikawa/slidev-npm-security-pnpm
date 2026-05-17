@@ -7,6 +7,7 @@ themeConfig:
 comark: true
 layout: cover
 routerMode: hash
+class: simple-cover
 ---
 
 # サプライチェーン攻撃対策と<br>pnpmのススメ

@@ -35,6 +35,12 @@
   color: var(--color-foreground);
 }
 
+.simple-cover {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)),
+    url("./attachments/cover-bg.webp") !important;
+}
+
 /*
  * ╭─────────────────────────────────────────────────────────╮
  * │                          段落                           │
