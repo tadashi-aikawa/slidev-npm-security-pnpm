@@ -33,7 +33,7 @@ activeChapter: 1
 
 悪意あるコードを **依存パッケージ** に仕込み、実行させる攻撃
 
-![](./attachments/002.webp){class="mx-auto w-80% mt-6"}
+![](/attachments/002.webp){class="mx-auto w-80% mt-6"}
 
 ---
 
@@ -114,7 +114,7 @@ layout: fact
 
 ---
 layout: image
-image: ./attachments/etokichi-guards5.webp
+image: /attachments/etokichi-guards5.webp
 backgroundSize: cover
 backgroundPosition: left top
 ---
@@ -125,7 +125,7 @@ backgroundPosition: left top
 
 ---
 layout: image
-image: ./attachments/002.webp
+image: /attachments/002.webp
 backgroundSize: cover
 backgroundPosition: left top
 ---
@@ -134,7 +134,7 @@ backgroundPosition: left top
 
 <div v-click.fade-in>
 
-![](./attachments/etokichi-guard.webp){class="absolute size-64 left-52 bottom-16"}
+![](/attachments/etokichi-guard.webp){class="absolute size-64 left-52 bottom-16"}
 
 <div class="absolute top-48 left-9% w-82% bg-white! px-12 py-8">
 
@@ -150,7 +150,7 @@ layout: fact
 
 <h1>
 
-![](./attachments/etokichi-guard.webp){class="size-24 inline mb-2"}
+![](/attachments/etokichi-guard.webp){class="size-24 inline mb-2"}
 対策1
 
 </h1>
@@ -243,7 +243,7 @@ layout: fact
 
 <h1>
 
-![](./attachments/etokichi-guard.webp){class="size-24 inline mb-2"}
+![](/attachments/etokichi-guard.webp){class="size-24 inline mb-2"}
 対策2
 
 </h1>
@@ -357,13 +357,13 @@ deno install --frozen
 layout: center
 ---
 
-<Bubble image="./attachments/etokichi-shy.webp" imageHeight="140" imageGap="32px">
+<Bubble image="/attachments/etokichi-shy.webp" imageHeight="140" imageGap="32px">
 
 そのときは*ロックファイルだけでは防げない*んでしょ？
 
 </Bubble>
 
-<Bubble v-click image="./attachments/etokichi+1.webp" position="right" imageHeight="220">
+<Bubble v-click image="/attachments/etokichi+1.webp" position="right" imageHeight="220">
 
 安心して！<br/>
 インストールのリスクを減らす方法があるんだよ！
@@ -376,7 +376,7 @@ layout: fact
 
 <h1>
 
-![](./attachments/etokichi-guard.webp){class="size-24 inline mb-2"}
+![](/attachments/etokichi-guard.webp){class="size-24 inline mb-2"}
 対策3
 
 </h1>
@@ -429,14 +429,14 @@ minimumReleaseAge = 86400 # 秒設定
 layout: center
 ---
 
-<Bubble image="./attachments/etokichi-shy.webp" imageHeight="140" imageGap="32px">
+<Bubble image="/attachments/etokichi-shy.webp" imageHeight="140" imageGap="32px">
 
 大事をとって **7日** に設定したとしても<br/>
 _7日以上見つからない攻撃_ を受けたらもう終わりなの？？
 
 </Bubble>
 
-<Bubble v-click image="./attachments/etokichi+1.webp" position="right" imageHeight="220">
+<Bubble v-click image="/attachments/etokichi+1.webp" position="right" imageHeight="220">
 
 安心して！<br/>
 インストールされただけならまだ手は打てるんだよ！
@@ -445,7 +445,7 @@ _7日以上見つからない攻撃_ を受けたらもう終わりなの？？
 
 ---
 layout: image
-image: ./attachments/002.webp
+image: /attachments/002.webp
 backgroundSize: cover
 backgroundPosition: left top
 ---
@@ -457,7 +457,7 @@ backgroundPosition: left top
 
 <div v-click.fade-in="2">
 
-![](./attachments/etokichi-guard.webp){class="absolute size-64 left-192 bottom-16"}
+![](/attachments/etokichi-guard.webp){class="absolute size-64 left-192 bottom-16"}
 
 <div class="absolute top-48 left-16% w-68% bg-white! px-12 py-8">
 
@@ -473,7 +473,7 @@ layout: fact
 
 <h1>
 
-![](./attachments/etokichi-guard.webp){class="size-24 inline mb-2"}
+![](/attachments/etokichi-guard.webp){class="size-24 inline mb-2"}
 対策4
 
 </h1>
@@ -594,14 +594,14 @@ npm config set ignore-scripts true
 layout: center
 ---
 
-<Bubble image="./attachments/etokichi-shy.webp" imageHeight="140" imageGap="32px">
+<Bubble image="/attachments/etokichi-shy.webp" imageHeight="140" imageGap="32px">
 
 ライフサイクルスクリプトを*本当に*必要としている<br/>
 パッケージの処理も無効化されてしまわないの？？
 
 </Bubble>
 
-<Bubble v-click image="./attachments/etokichi+1.webp" position="right" imageHeight="220">
+<Bubble v-click image="/attachments/etokichi+1.webp" position="right" imageHeight="220">
 
 安心して！<br/>
 設定で指定したパッケージだけ<br/>
@@ -642,13 +642,13 @@ activeChapter: 3
 layout: center
 ---
 
-<Bubble image="./attachments/etokichi-crying.webp" imageHeight="180" imageGap="32px">
+<Bubble image="/attachments/etokichi-crying.webp" imageHeight="180" imageGap="32px">
 
 仕組みも難しいし、設定も多くてよく分からないよ〜
 
 </Bubble>
 
-<Bubble v-click image="./attachments/etokichi+1.webp" position="right" imageHeight="220">
+<Bubble v-click image="/attachments/etokichi+1.webp" position="right" imageHeight="220">
 
 安心して！<br/>
 _pnpm_ (v11) を使えば簡単だよ！
