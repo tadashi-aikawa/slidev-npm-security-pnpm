@@ -356,7 +356,7 @@ deno install --frozen
 layout: center
 ---
 
-<Bubble image="./public/attachments/etokichi-shy.webp" imageHeight="140" imageGap="32px">
+<Bubble image="./attachments/etokichi-shy.webp" imageHeight="140" imageGap="32px">
 
 そのときは*ロックファイルだけでは防げない*んでしょ？
 
