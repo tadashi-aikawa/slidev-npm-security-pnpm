@@ -198,6 +198,9 @@
 .slidev-layout table {
   font-size: 0.75em;
   margin-top: 2em;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .slidev-layout table thead th {
@@ -415,4 +418,16 @@
 }
 .refer a {
   color: inherit;
+}
+
+/*
+ * ╭─────────────────────────────────────────────────────────╮
+ * │                         その他                          │
+ * ╰─────────────────────────────────────────────────────────╯
+*/
+
+.spotlight {
+  position: absolute;
+  box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.65);
+  pointer-events: none;
 }

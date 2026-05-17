@@ -2,9 +2,9 @@
 import { cva } from "class-variance-authority";
 
 const chapters = [
-  "サプライチェーン攻撃とは",
-  "5つの対策",
-  "pnpmのススメ",
+  "はじめに",
+  "4つのサプライチェーン攻撃対策",
+  "おわりに",
 ] as const;
 
 type ChapterState = "current" | "done" | "upcoming";
