@@ -362,10 +362,10 @@ layout: center
 
 </Bubble>
 
-<Bubble v-click image="./public/attachments/etokichi-guard.webp" position="right" imageHeight="220">
+<Bubble v-click image="./public/attachments/etokichi+1.webp" position="right" imageHeight="220">
 
 安心して！<br/>
-インストールのリスクを減らす方法があるんだよ。
+インストールのリスクを減らす方法があるんだよ！
 
 </Bubble>
 
@@ -435,10 +435,10 @@ _7日以上見つからない攻撃_ を受けたらもう終わりなの？？
 
 </Bubble>
 
-<Bubble v-click image="./public/attachments/etokichi-guard.webp" position="right" imageHeight="220">
+<Bubble v-click image="./public/attachments/etokichi+1.webp" position="right" imageHeight="220">
 
 安心して！<br/>
-インストールされただけならまだ手は打てるんだよ。
+インストールされただけならまだ手は打てるんだよ！
 
 </Bubble>
 
@@ -600,11 +600,11 @@ layout: center
 
 </Bubble>
 
-<Bubble v-click image="./public/attachments/etokichi-guard.webp" position="right" imageHeight="220">
+<Bubble v-click image="./public/attachments/etokichi+1.webp" position="right" imageHeight="220">
 
 安心して！<br/>
 設定で指定したパッケージだけ<br/>
-ライフサイクルスクリプトを有効にできるよ。
+ライフサイクルスクリプトを有効にできるんだよ！
 
 </Bubble>
 
